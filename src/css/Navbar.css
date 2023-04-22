@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.section-navbar{
+    background-color: #333;
+    height: 6rem;
+}
+
+.section-links{
+    display: flex;
+    margin: 0 6rem;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.navigationlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navigationlinks Link:hover,.navigationlinks Link:active{
+    color: rgb(239, 221, 196);
+}
+
+.logo h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+
+}
